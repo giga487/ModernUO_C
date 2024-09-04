@@ -10,7 +10,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.Tests", "Projects\Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UOContent.Tests", "Projects\UOContent.Tests\UOContent.Tests.csproj", "{3C4797F9-603E-44EF-8E8C-9275CC9EA74B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Projects\Application\Application.csproj", "{E9849FA1-D4F5-4D68-A36B-249F4CB4E374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Projects\Application\Application.csproj", "{E9849FA1-D4F5-4D68-A36B-249F4CB4E374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaHats", "SeaHats\SeaHats.csproj", "{FE02DD18-F99D-4BC0-A972-6C656E0952BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomSeaHats", "CustomSeaHats", "{B59314E4-5021-47BA-8F9A-773D8F20B7AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaHats.UnitTest", "SeaHatsUnitTest\SeaHats.UnitTest.csproj", "{E9059A30-5549-4B34-B342-6C8EB4C39AF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,9 +55,25 @@ Global
 		{E9849FA1-D4F5-4D68-A36B-249F4CB4E374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9849FA1-D4F5-4D68-A36B-249F4CB4E374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9849FA1-D4F5-4D68-A36B-249F4CB4E374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC}.Analyze|Any CPU.ActiveCfg = Analyze|Any CPU
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC}.Analyze|Any CPU.Build.0 = Analyze|Any CPU
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0}.Analyze|Any CPU.ActiveCfg = Analyze|Any CPU
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0}.Analyze|Any CPU.Build.0 = Analyze|Any CPU
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE02DD18-F99D-4BC0-A972-6C656E0952BC} = {B59314E4-5021-47BA-8F9A-773D8F20B7AF}
+		{E9059A30-5549-4B34-B342-6C8EB4C39AF0} = {B59314E4-5021-47BA-8F9A-773D8F20B7AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F69EF13-E193-40B9-BA9F-4862A9F0C038}
