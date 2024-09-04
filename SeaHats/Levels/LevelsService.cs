@@ -43,7 +43,7 @@ namespace SeaHats.Leveling
 
             double tempTotal = totalExperience;
 
-            for (int i = MinLevel; i < MaxLevel; i++)
+            for (int i = MinLevel; i <= MaxLevel; i++)
             {
                 tempTotal -= LevelExperiences[i];
 
@@ -54,6 +54,11 @@ namespace SeaHats.Leveling
                 if (tempTotal == 0)
                 {
                     return i;
+                }
+
+                if (i == MaxLevel)
+                {
+
                 }
 
                 oldLevel = i;

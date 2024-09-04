@@ -14,7 +14,8 @@ namespace SeaHats.Levels
         AddOK = 1,
         RemoveOk = 2,
         Bad = 3,
-        NotNeeded = 4
+        NotNeeded = 4,
+        MaxLevel = 5,
     }
 
     public interface ILevelSystem
